@@ -1,0 +1,40 @@
+{% extends "layout/base_home.html" %}
+{% block content %}
+<div class="page-content" style="padding:20px 0;">
+<div class="row-fluid">
+<div class="mcontent">
+<div class="span12 clearfix">
+        <div class="span8" style="margin-left:16%;margin-right:16%;">
+            <div class="well well-large clearfix">
+              <h4 class="color-site">用户邮箱验证</h4>
+              {% if error %}
+              <span class='red'>{{error}}</span>
+              {% else %}
+               <div class="pull-left">
+        
+                <span>验证邮件已发送至 <a href="javascript:void(0);">{{ email }}</a></span>
+                <br />
+                <span>验证邮件在24小时内有效，请在此时间内激活。</span>
+                <br />
+                <br />
+                {% if email_login %}
+                <a href="{{ email_login }}" title="转至邮箱激活账户" class="btn btn-site btn-sm" target="_blank">转至邮箱激活账户<i class=" fa fa-arrow-right bigger-110"></i></a>
+                {% else %}
+                <a href="javascript:void(0);" title="请登录您的邮箱激活账户" >请登录您的邮箱激活账户</a>
+                {% endif %} 
+                <br />
+               </div>
+                <div class="pull-left" style="margin-left:15px;">
+                    • 到广告邮件/垃圾邮件箱找找，我们的邮件可能被误放到那里！
+                    <br>
+                    如果你已经完成激活，请点击这里
+                    <a title="进入个人中心" href="{% url 'user_index'  %}">进入个人中心</a>！
+                </div>
+                {% endif %}
+            </div>
+        </div>
+</div>
+</div>
+</div>
+</div>
+{% endblock %}

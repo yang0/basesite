@@ -1,0 +1,137 @@
+{% extends "layout/base.html" %}
+{% block content %}
+<div class="right-content">
+    <div class="page-header">
+    <h4 class="lighter">
+
+        修改密码 
+        <!--
+        <a href="{% url 'user_info' %}" class="btn btn-site btn-sm">
+        <i class="icon-edit">个人资料</i></a>
+    -->
+    </h4>
+    </div>
+
+    <form action="{% url 'user_change_pwd' %}" method="post" enctype="multipart/form-data" onsubmit="return checkForm();" class="form-horizontal">
+        {% csrf_token %}
+            {% if code %}
+            <div class="form-group">
+                <label  class="col-sm-3 control-label no-padding-right">&nbsp;</label>
+                <div class="col-sm-5">
+                    {% if code == 1 %}
+                        <span class="green">更新密码成功！</span>
+                    {% else %}
+                         <span class="red">更新密码失败</span> 
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+        <div class="form-group">
+            <label for="form-field-1" class="col-sm-3 control-label no-padding-right">旧密码</label>
+            <div class="col-sm-5">
+                <input id="oldPwd" name="oldpwd" type="password" value="" class="input-len form-control" placeholder="旧密码" id="form-field-1">
+            </div>
+            <span class="reg_msg_old help-block form-control-static">
+            {% if oldMsg %}
+                {% if oldMsg == 1 %}
+                    <span class="red">&nbsp;请填写旧密码</span>
+                    {% else %}
+                    <span class="red">&nbsp;旧密码错误</span>
+                {% endif %}
+            {% else %}
+                &nbsp;请输入最近一次的登录密码
+            {% endif %}
+            </span>
+        </div>
+
+        <div class="form-group">
+            <label for="form-field-2" class="col-sm-3 control-label no-padding-right">新密码</label>
+            <div class="col-sm-5">
+                <input id="pwd" name="password" type="password" value="" class="input-len form-control" placeholder="新密码" id="form-field-2">
+            </div>
+            <span class="reg_msg_pwd help-block form-control-static">
+            {% if pwd == 0 %}
+                <span class="red">&nbsp;请填写新密码</span>
+            {% else %}
+                &nbsp;6-20个字符（区分大小写）
+            {% endif %}
+            </span>
+        </div>
+
+        <div class="form-group">
+            <label for="form-field-3" class="col-sm-3 control-label no-padding-right">确认密码</label>
+            <div class="col-sm-5">
+                <input id="repwd" name="repassword" type="password" value="" class="input-len form-control" placeholder="确认密码" id="form-field-3" >
+            </div>
+            <span class="reg_msg_repwd help-block form-control-static">
+            {% if repwd == 0 %}
+                <span class="red">&nbsp;二次密码输入不一致</span>
+            {% else %}
+                &nbsp;请重复输入密码
+            {% endif %}
+            </span>
+        </div>
+        <div class="form-group">
+            <label for="" class="col-sm-3 control-label no-padding-right">&nbsp;</label>
+            <div class="col-sm-5">
+                <button type="submit" class="btn btn-site btn-sm"><i class="fa fa-save bigger-110"></i> 保存</button>
+            </div>
+
+        </div>
+
+
+    </form>
+</div>    
+
+<script>
+$(".input-len").blur(function(){
+       var cur=$(this);
+        var name=cur.attr("name").trim();
+        var val=cur.val().trim();
+        if(name=="oldpwd"){
+            if(val=="")
+                $(".reg_msg_old").html("<span class='red'>&nbsp;请填写旧密码</span>");
+            else
+                $(".reg_msg_old").html("&nbsp;请输入最近一次的登录密码");
+        }else if(name=="password"){
+            //alert(val.length);
+            if(val==""||val.length<6||val.length>20){
+                $(".reg_msg_pwd").html("<span class='red'>&nbsp;请填写6-20个字符（区分大小写）</span>");
+            }else{
+                $(".reg_msg_pwd").html("&nbsp;6-20个字符（区分大小写）");
+            }
+        }else if(name=="repassword"){
+            var pwd=$("#pwd").val().trim();
+            if(val==""||pwd!=val){
+                $(".reg_msg_repwd").html("<span class='red'>&nbsp;二次输入密码不一致</span>");
+            }else{
+                $(".reg_msg_repwd").html("");
+            }
+        }
+        
+    });
+
+    function checkForm(){
+
+        val=$("#oldPwd").val().trim();
+        if(val==""){
+            $(".reg_msg_old").html("<span class='red'>&nbsp;请填写旧密码</span>");
+            return false;
+        }
+        val=$("#pwd").val().trim();
+        var repwd=$("#repwd").val().trim();
+        if(val==""||val.length<6||val.length>20){
+            $(".reg_msg_pwd").html("<span class='red'>&nbsp;请填写6-20个字符（区分大小写）</span>");
+            return false;
+        }
+            
+       if(repwd!=val){
+           $(".reg_msg_repwd").html("<span class='red'>&nbsp;二次输入密码不一致</span>");
+           return false;
+       }
+    
+       return true;
+    }
+</script>
+
+{% endblock %}

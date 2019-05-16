@@ -1,0 +1,75 @@
+{% load compress %}
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<title>{% block title %}{% endblock %}{% block title_more %}{% include "layout/title.html" with title_for="index" %}{% endblock %}</title>
+{% block keywords %}{% include "layout/keywords.html" with title_for="index" %}{% endblock %}
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+
+{% block css%}
+<!--basic styles-->
+
+<link href="{{STATIC_URL}}lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+<link rel="stylesheet" href="{{STATIC_URL}}lib/font-awesome/css/font-awesome.min.css" />
+<!--[if IE 7]>
+  <link rel="stylesheet" href="{{STATIC_URL}}lib/font-awesome/css/font-awesome-ie7.min.css" />
+<![endif]-->
+
+
+<link rel="stylesheet" href="{{STATIC_URL}}css/baohua.css" type="text/css" />
+
+<!--[if lte IE 8]>
+  <link rel="stylesheet" href="{{STATIC_URL}}assets/css/ace-ie.min.css" />
+<![endif]-->
+<![if !IE]>
+<script src="{{STATIC_URL}}lib/jquery/dist/jquery.min.js"></script>
+<![endif]>
+
+<!--[if IE]><script src="{{STATIC_URL}}assets/js/jquery-1.10.2.min.js"></script><![endif]-->
+
+<script src="{{STATIC_URL}}lib/jquery-ui/ui/minified/jquery-ui.min.js"></script>
+
+
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+{% endblock %}
+<!--inline styles related to this page-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+.breadcrumb > li{line-height: 39px;}
+.dropdown-menu.dropdown-closer{top:90%;}
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year{width:45%;}
+</style>
+</head>
+<body>
+{% block body %}
+	{% block header %}{% include "layout/header_home.html" %}{% endblock %}
+    <div class="main-container container-fluid" style="margin-bottom:50px;">
+        <div class="container">
+        <div class="row">
+        <div class="mcontent clearfix">
+        {% block menu %}{% include "layout/menu_user.html" %}{% endblock %}
+        {% block content %}{% endblock %}
+        </div>
+        </div>
+        </div>
+    </div>
+	<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse" style="bottom:22px;">
+		<i class="icon-double-angle-up icon-only bigger-110"></i>
+	</a>
+	{% block footer %}{% include "layout/footer.html" %}{% endblock %}
+{% endblock %}
+</body>
+</html>
+
+
+

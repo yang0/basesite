@@ -1,0 +1,13 @@
+{% extends "layout/base.html" %}
+{% block body %}
+
+    {% block header %}{% include "layout/header_home.html" %}{% endblock %}
+    <div class="container-fluid mw1000 mb50 clearfix " style="min-height:500px;" id="content-body">
+        {% block content %}{% endblock %}
+    </div>
+
+    {% block footer %}{% include "layout/footer_home.html" %}{% endblock %}
+{% endblock %}
+
+
+

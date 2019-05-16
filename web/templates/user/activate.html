@@ -1,0 +1,23 @@
+{% extends "layout/base_home.html" %}
+{% block content %}
+<div class="page-content" style="padding:20px 0;">
+<div class="row-fluid">
+<div class="mcontent">
+<div class="span12 clearfix">
+    <div class="span8" style="margin-left:16%;margin-right:16%;">
+      <div class="well well-large clearfix">
+        <h4 class="color-site">用户邮箱验证</h4>
+        {% if error %}
+          <span class="red">{{error}}</span>
+        {% else %}
+          {{success}}
+          <a href="{% url 'user_info' %}" style="margin-left:20px;" class="btn btn-xs btn-site">完善我的个人信息<i class="icon-arrow-right icon-on-right bigger-110"></i>
+          </a>
+        {% endif %}
+      </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,121 @@
+{% load my_filter %}
+
+<div class="left-sidebar">
+
+
+
+    {% if user.is_authenticated %}
+    <div class="profilePic">
+        <a href="#">
+            <img src="{{STATIC_URL}}images/user2.gif" class="userProfilePic">
+        </a>
+        
+        <a ref="javascript:;" class="editProfilePicLink stayOn" data-toggle="modal" data-target="#modal-upload-pic-user">修改头像</a>
+    </div>
+
+    <div class="qrcode">
+        二维码图片<br><br><br><br>
+        <div style="" class="sweep grey">扫一扫，进入手机版个人中心</div>
+    </div>
+    <div class="sidebar-in collapsible">
+        <div class="sidebar-header">个人主页<span class="sidebar-icon toggle collapse-icon"></span></div>
+        <div class="sidebar-body">
+            <ul class="category-items">
+                <li class="sidebar-item" data-id="">
+                    <a href="#" class="sidebar-item-label">个人资料</a>
+                </li>
+                <li class="sidebar-item" data-id="">
+                    <a href="#" class="sidebar-item-label clearfix">产品管理</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    {% endif %}
+   
+
+
+
+
+    <!--
+    <div class="sidebar-in collapsible">
+        <div class="sidebar-header">按风格<span class="sidebar-icon toggle collapse-icon"></span></div>
+        <div class="sidebar-body">
+            <ul class="category-items">
+           
+                <li class="sidebar-item" data-id="">
+                    <a href="#" class="sidebar-item-label">原创案例</a>
+                </li>
+                <li class="sidebar-item" data-id="">
+                    <a href="#" class="sidebar-item-label">收藏夹</a>
+                </li>
+                <li class="sidebar-item" data-id="">
+                    <a href="#" class="sidebar-item-label">暂过的</a>
+                </li>
+                <li class="sidebar-item" data-id="">
+                    <a href="#" class="sidebar-item-label">回复过的</a>
+                </li>
+            
+            </ul>
+        </div>
+    </div>
+    -->
+</div>
+
+
+{% if user.is_authenticated %}
+<!-- Modal -->
+<div class="modal fade" id="modal-upload-pic-user" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <form action="/pic/" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">请选择要上传的头像</h4>
+          </div>
+          <div class="modal-body">
+            <input type="file" name="pic">
+            <br>
+            <input type="hidden" name="description" value='' >
+            
+          </div>
+          <div style="padding-left:30px;">
+            请上传分辨率200以上的图片，以保证头像显示效果
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            <button  type="submit" class="btn btn-primary btn-site" onclick="submit">确定上传</button>
+          </div>
+
+          <input type="hidden" name="content_type" value="user">
+          <input type="hidden" name="object_id" value="{{user.id}}">
+          <input type="hidden" name="next" value="">
+
+
+         </form>
+
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+{% endif %}
+<script>
+    $(function(){
+        //var url=window.location.href;
+        var url=window.location.pathname;
+        $(".left-sidebar a[href='"+url+"']").parent('li').addClass('selected');
+    })
+    $(".left-sidebar .sidebar-in .sidebar-header").click(function() {
+    if ($(this).parent("div").hasClass('state-collapsed')){
+        $(this).parent("div").removeClass('state-collapsed');
+        $(this).children('span').removeClass('expand-icon');
+        $(this).children('span').addClass('collapse-icon');
+        $(this).next(".sidebar-body").fadeIn('fast');
+    }else{
+        $(this).parent("div").addClass('state-collapsed');
+        $(this).children('span').addClass('expand-icon');
+        $(this).children('span').removeClass('collapse-icon');
+        $(this).next(".sidebar-body").fadeOut('fast');
+    }
+});
+</script>

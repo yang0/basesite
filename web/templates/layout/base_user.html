@@ -1,0 +1,19 @@
+{% extends "layout/base.html" %}
+{% block body %}
+
+    {% block header %}{% include "layout/header_home.html" %}{% endblock %}
+    <div class="main-container container-fluid clearfix" style="margin-bottom:50px;">
+        <div class="row" style="padding:20px 0;">
+        <div class="container">
+        <div class="mcontent">
+        {% block menu %}{% include "layout/menu_user.html" %}{% endblock %}
+        {% block content %}{% endblock %}
+        </div>
+        </div>
+        </div>
+    </div>
+    <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse" style="bottom:22px;">
+        <i class="icon-double-angle-up icon-only bigger-110"></i>
+    </a>
+    {% block footer %}{% include "layout/footer.html" %}{% endblock %}
+{% endblock %}

@@ -1,0 +1,121 @@
+{% extends "layout/base.html" %}
+{% block content %}
+<div class="right-content">
+    <div class="page-header">
+        <h4 class="lighter">
+         
+            个人资料
+            <!--
+             <a href="#" class="btn btn-sm  btn-info"><i class="icon-edit">修改密码</i></a>
+            -->
+        </h4>
+    </div>
+
+    {% if action == 'edit' %}
+    <form id="infoForm" class="form-horizontal" action="{% url 'user_info' %}" method="post" enctype="multipart/form-data">
+
+        {% if msg %}
+        <div class="form-group msg_tip" style="margin-bottom:10px;">
+            <label class="col-sm-3 control-label no-padding-right"></label>
+            <div class="col-sm-9">{{msg}}</div>
+        </div>
+        {% endif %}
+        
+        {% csrf_token %}
+
+        <div class="form-group">
+            <label for="form-field-2" class="col-sm-3 control-label no-padding-right">邮箱</label>
+            <div class="col-sm-5">
+            <input type="text" id="form-field-2"  value="{{objMap.email}}" class="form-control" readonly disabled="disabled">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="form-field-1" class="col-sm-3 control-label no-padding-right">昵称</label>
+            <div class="col-sm-5">
+                <input type="text" id="form-field-1" name="nick" placeholder="昵称" value="{{ objMap.nick }}" class="form-control" readonly disabled="disabled">
+                &nbsp;&nbsp;
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="" class="col-sm-3 control-label no-padding-right">密码</label>
+            <div class="col-sm-5">
+            <p class="form-control-static inline" style="margin-right:50px;">************</p>
+            <a href="{% url 'user_change_pwd' %}" class="btn btn-info btn-xs"><i class="fa fa-edit"></i>修改密码</a>
+    
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="form-field-4" class="col-sm-3 control-label no-padding-right">真实姓名</label>
+            <div class="col-sm-5">
+            <input type="text" id="form-field-4" placeholder="真实姓名" name="name" value="{{objMap.name|default_if_none:''}}" class="form-control">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="" class="col-sm-3 control-label no-padding-right"></label>
+            <div class="col-sm-5">
+            <button type="submit" class="infoSave btn btn-site btn-sm">
+                <i class="fa fa-save bigger-110"></i>
+                保存
+            </button> 
+            </div>
+        </div>
+    </form>
+    {% else %}
+    <div class="form-horizontal">
+        <div class="form-group">
+            <label for="" class="col-sm-3 control-label no-padding-right">邮箱</label>
+            <div class="col-sm-5"><div class="form-control-static">{{objMap.email}}</div></div>
+        </div>
+        <div class="form-group">
+            <label for="" class="col-sm-3 control-label no-padding-right">昵称</label>
+            <div class="col-sm-5"><div class="form-control-static">{{ objMap.nick }}</div></div>
+        </div>
+
+        <div class="form-group">
+            <label for="" class="col-sm-3 control-label no-padding-right">密码</label>
+            <div class="col-sm-5">
+            <p class="form-control-static inline" style="margin-right:50px;">************</p>
+            <a href="{% url 'user_change_pwd' %}" class="btn btn-info btn-xs" target="_blank"><i class="fa fa-edit"></i>修改密码</a>
+    
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="" class="col-sm-3 control-label no-padding-right">真实姓名</label>
+            <div class="col-sm-5"><div class="form-control-static">{% if objMap.name %}{{ objMap.name}}{% else %}暂未填写{% endif %}</div></div>
+        </div>
+        <div class="form-group">
+            <label for="" class="col-sm-3 control-label no-padding-right">&nbsp;&nbsp;</label>
+            <div class="col-sm-5"><a href="{% url 'user_info' %}?action=edit" class="btn btn-info btn-sm"><i class="fa fa-edit"></i> 编辑资料</a></div>
+
+        </div>
+
+    </div>
+    {% endif %}
+
+
+       
+
+    <script>
+
+    $(document).ready(function(){
+
+        {% if msg %}
+        var msgStatus={{status}}
+        if(msgStatus){
+            $(".msg_tip").css({"color":"green"});
+            $(".msg_tip").fadeOut(5000);
+        }else{
+            $(".msg_tip").css({"color":"red"});
+        }
+        {% endif %}
+
+
+    });
+
+    </script>
+
+</div><!--/.page-content-->
+
+{% endblock %}

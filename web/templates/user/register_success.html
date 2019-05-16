@@ -1,0 +1,22 @@
+{% extends "layout/base_home.html" %}
+{% block content %}
+<meta http-equiv="refresh" content="5;url={% url 'index' %}">
+<div class="page-content" style="padding:20px 0;">
+<div class="row-fluid">
+<div class="mcontent">
+<div class="span12 clearfix">
+        <div class="span8" style="margin-left:16%;margin-right:16%;">
+
+            <div class="well well-large clearfix" style="margin-top:10px;">
+              <h4 class="color-site" style="font-size:16px;">恭喜您注册成功！</h4>
+
+              <div style="margin-top:10px;">
+                5秒后将自动跳转到首页或点击<a title="返回首页" href="{% url 'index' %}" class="green" style="text-decoration:underline;">这里返回首页</a>！
+              </div>
+            </div>
+        </div>
+</div>
+</div>
+</div>
+</div>
+{% endblock %}

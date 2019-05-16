@@ -1,0 +1,8 @@
+
+query userCurrent {
+  userCurrent {
+    id
+    nick
+    tel
+  }
+}
