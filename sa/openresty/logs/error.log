@@ -1,0 +1,26 @@
+2019/05/24 15:52:52 [alert] 16399#0: worker process 16400 exited on signal 9
+2019/05/24 16:12:10 [alert] 17146#0: worker process 17147 exited on signal 9
+2019/05/24 16:14:25 [error] 19499#0: *4 open() "/mnt/e/testProject/my-project/dist/sockjs-node/info" failed (2: No such file or directory), client: 172.17.116.193, server: , request: "GET /sockjs-node/info?t=1558685665257 HTTP/1.1", host: "172.17.116.193:8080", referrer: "http://localhost:8080/"
+2019/05/24 16:15:52 [error] 19499#0: *5 open() "/mnt/e/testProject/my-project/dist/sockjs-node/info" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /sockjs-node/info?t=1558685752263 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2019/05/24 16:18:44 [error] 19499#0: *7 open() "/mnt/e/testProject/my-project/dist/sockjs-node/info" failed (2: No such file or directory), client: 172.17.116.193, server: , request: "GET /sockjs-node/info?t=1558685924256 HTTP/1.1", host: "172.17.116.193:8080", referrer: "http://localhost:8080/"
+2019/05/24 16:24:26 [error] 19499#0: *8 open() "/mnt/e/testProject/my-project/dist/sockjs-node/info" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /sockjs-node/info?t=1558686266259 HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2019/05/24 16:35:50 [error] 19499#0: *10 open() "/mnt/e/testProject/my-project/dist/sockjs-node/info" failed (2: No such file or directory), client: 172.17.116.193, server: , request: "GET /sockjs-node/info?t=1558686950572 HTTP/1.1", host: "172.17.116.193:8080", referrer: "http://localhost:8080/"
+2019/05/24 20:06:04 [emerg] 20048#0: open() "/mnt/e/testProject/openRestryTest/./conf/mime.types" failed (2: No such file or directory) in /mnt/e/testProject/openRestryTest/./conf/nginx.conf:18
+2019/05/24 20:11:59 [notice] 20068#0: using the "epoll" event method
+2019/05/24 20:11:59 [notice] 20068#0: using the "epoll" event method
+2019/05/24 20:11:59 [notice] 20068#0: openresty/1.15.8.1
+2019/05/24 20:11:59 [notice] 20068#0: openresty/1.15.8.1
+2019/05/24 20:11:59 [notice] 20068#0: built by gcc 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
+2019/05/24 20:11:59 [notice] 20068#0: built by gcc 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
+2019/05/24 20:11:59 [notice] 20068#0: OS: Linux 4.4.0-17763-Microsoft
+2019/05/24 20:11:59 [notice] 20068#0: OS: Linux 4.4.0-17763-Microsoft
+2019/05/24 20:11:59 [notice] 20068#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2019/05/24 20:11:59 [notice] 20068#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2019/05/24 20:11:59 [notice] 20069#0: start worker processes
+2019/05/24 20:11:59 [notice] 20069#0: start worker processes
+2019/05/24 20:11:59 [notice] 20069#0: start worker process 20070
+2019/05/24 20:11:59 [notice] 20069#0: start worker process 20070
+2019/05/24 20:12:49 [info] 20070#0: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/24 20:12:49 [info] 20070#0: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/24 20:12:49 [info] 20070#0: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/24 20:12:49 [info] 20070#0: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80

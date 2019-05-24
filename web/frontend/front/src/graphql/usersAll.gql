@@ -1,0 +1,10 @@
+query usersAll ($tel: String!) {
+  users (tel_Icontains: $tel){
+    edges{
+      node{
+        id
+        tel
+      }
+    }
+  }
+}
