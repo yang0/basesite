@@ -1,0 +1,11 @@
+
+mutation userLogin ($tel: String!, $password: String!) {
+  userLogin (input: {tel: $tel, password: $password}) {
+    user {
+      id
+      nick
+      tel
+    }
+    token
+  }
+}

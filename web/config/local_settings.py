@@ -6,12 +6,15 @@ import os
 
 DEBUG = True
 
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = '07j=!s+n(2s6jk$0-p3ceqpup_y6r^wfgyl$82pilq$-lip_r^'
+
 # DOMAIN = 'https://test.beex1.cn'
 DOMAIN = 'https://127.0.0.1'
 DB_HOST = '127.0.0.1'
 
 ALLOWED_HOSTS = (
-    ['localhost', '127.0.0.1', ] +
+    ['localhost', '127.0.0.1', '.dev.cn'] +
     ['192.168.2.%d' % i for i in range(256)] +
     ['192.168.1.%d' % i for i in range(256)])
 
@@ -22,8 +25,8 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
 ]
 
-STATIC_URL = '/static/'
-MEDIA_URL = '/media/'
+STATIC_URL = 'http://static.dev.cn/'
+MEDIA_URL = 'http://img.dev.cn/'
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases

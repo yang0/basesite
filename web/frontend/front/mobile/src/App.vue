@@ -30,7 +30,7 @@
         </el-menu-item>
       </el-menu>
     </el-header>
-    <el-container style="width:1000px; margin:auto;">
+    <el-container style="max-width:1000px; margin:auto;">
       <router-view />
     </el-container>
     <el-footer style="text-align:center;">
