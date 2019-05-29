@@ -2864,3 +2864,825 @@ stack traceback:
 2019/05/28 10:27:08 [notice] 3659#0: worker process 4409 exited with code 0
 2019/05/28 10:27:08 [notice] 3659#0: signal 29 (SIGIO) received
 2019/05/28 10:27:08 [notice] 3659#0: signal 29 (SIGIO) received
+2019/05/29 09:08:39 [alert] 1131#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:08:39 [error] 1131#0: init_by_lua error: init_by_lua:2: unexpected symbol near '#'
+2019/05/29 09:08:39 [error] 1131#0: init_by_lua error: init_by_lua:2: unexpected symbol near '#'
+2019/05/29 09:08:39 [error] 1131#0: init_by_lua error: init_by_lua:2: unexpected symbol near '#'
+2019/05/29 09:10:00 [alert] 1133#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:10:00 [emerg] 1133#0: unknown "userinfo" variable
+2019/05/29 09:11:03 [alert] 1135#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:11:03 [error] 1135#0: init_by_lua error: init_by_lua:2: unexpected symbol near '#'
+2019/05/29 09:11:03 [error] 1135#0: init_by_lua error: init_by_lua:2: unexpected symbol near '#'
+2019/05/29 09:11:03 [error] 1135#0: init_by_lua error: init_by_lua:2: unexpected symbol near '#'
+2019/05/29 09:11:17 [alert] 1137#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:11:17 [notice] 1137#0: using the "epoll" event method
+2019/05/29 09:11:17 [notice] 1137#0: using the "epoll" event method
+2019/05/29 09:11:17 [notice] 1137#0: openresty/1.15.8.1
+2019/05/29 09:11:17 [notice] 1137#0: openresty/1.15.8.1
+2019/05/29 09:11:17 [notice] 1137#0: built by gcc 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
+2019/05/29 09:11:17 [notice] 1137#0: built by gcc 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
+2019/05/29 09:11:17 [notice] 1137#0: OS: Linux 4.4.0-17763-Microsoft
+2019/05/29 09:11:17 [notice] 1137#0: OS: Linux 4.4.0-17763-Microsoft
+2019/05/29 09:11:17 [notice] 1137#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2019/05/29 09:11:17 [notice] 1137#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2019/05/29 09:11:17 [notice] 1138#0: start worker processes
+2019/05/29 09:11:17 [notice] 1138#0: start worker processes
+2019/05/29 09:11:17 [notice] 1138#0: start worker process 1139
+2019/05/29 09:11:17 [notice] 1138#0: start worker process 1139
+2019/05/29 09:11:40 [alert] 1141#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:11:40 [error] 1141#0: init_by_lua error: init_by_lua:2: unexpected symbol near '#'
+2019/05/29 09:11:40 [error] 1141#0: init_by_lua error: init_by_lua:2: unexpected symbol near '#'
+2019/05/29 09:11:40 [error] 1141#0: init_by_lua error: init_by_lua:2: unexpected symbol near '#'
+2019/05/29 09:12:00 [alert] 1143#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:12:00 [notice] 1143#0: using the "epoll" event method
+2019/05/29 09:12:00 [notice] 1143#0: using the "epoll" event method
+2019/05/29 09:12:00 [notice] 1143#0: openresty/1.15.8.1
+2019/05/29 09:12:00 [notice] 1143#0: openresty/1.15.8.1
+2019/05/29 09:12:00 [notice] 1143#0: built by gcc 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
+2019/05/29 09:12:00 [notice] 1143#0: built by gcc 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
+2019/05/29 09:12:00 [notice] 1143#0: OS: Linux 4.4.0-17763-Microsoft
+2019/05/29 09:12:00 [notice] 1143#0: OS: Linux 4.4.0-17763-Microsoft
+2019/05/29 09:12:00 [notice] 1143#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2019/05/29 09:12:00 [notice] 1143#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2019/05/29 09:12:00 [notice] 1144#0: start worker processes
+2019/05/29 09:12:00 [notice] 1144#0: start worker processes
+2019/05/29 09:12:00 [notice] 1144#0: start worker process 1145
+2019/05/29 09:12:00 [notice] 1144#0: start worker process 1145
+2019/05/29 09:12:04 [error] 1139#0: *1 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *1 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *1 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *2 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-libs.3dfb7769.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-libs.3dfb7769.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *2 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-libs.3dfb7769.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-libs.3dfb7769.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *2 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-libs.3dfb7769.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-libs.3dfb7769.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/app.2fa97c6d.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/app.2fa97c6d.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/app.2fa97c6d.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/app.2fa97c6d.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/app.2fa97c6d.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/app.2fa97c6d.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *4 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *4 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *4 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *5 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *5 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *5 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:04 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:06 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/favicon.ico HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:06 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/favicon.ico HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:06 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/favicon.ico HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *4 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/app.2fa97c6d.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/app.2fa97c6d.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *4 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/app.2fa97c6d.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/app.2fa97c6d.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *4 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/app.2fa97c6d.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/app.2fa97c6d.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *5 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-libs.3dfb7769.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-libs.3dfb7769.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *5 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-libs.3dfb7769.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-libs.3dfb7769.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *5 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-libs.3dfb7769.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-libs.3dfb7769.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *6 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *1 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *1 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *1 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *2 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *2 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *2 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:11 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:12 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:12 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:12 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:12 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:12 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:12:12 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:13:15 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:13:15 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:13:15 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:13:16 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /favicon.ico HTTP/1.1", host: "static.dev.cn", referrer: "http://static.dev.cn/pc/static/css/chunk-elementUI.a8b08852.css"
+2019/05/29 09:13:16 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /favicon.ico HTTP/1.1", host: "static.dev.cn", referrer: "http://static.dev.cn/pc/static/css/chunk-elementUI.a8b08852.css"
+2019/05/29 09:13:16 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /favicon.ico HTTP/1.1", host: "static.dev.cn", referrer: "http://static.dev.cn/pc/static/css/chunk-elementUI.a8b08852.css"
+2019/05/29 09:14:04 [alert] 1149#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:14:04 [notice] 1149#0: signal process started
+2019/05/29 09:14:04 [notice] 1144#0: signal 1 (SIGHUP) received from 1149, reconfiguring
+2019/05/29 09:14:04 [notice] 1144#0: signal 1 (SIGHUP) received from 1149, reconfiguring
+2019/05/29 09:14:04 [notice] 1144#0: reconfiguring
+2019/05/29 09:14:04 [notice] 1144#0: reconfiguring
+2019/05/29 09:14:04 [alert] 1144#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:14:04 [alert] 1144#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:14:04 [alert] 1144#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:14:04 [notice] 1144#0: using the "epoll" event method
+2019/05/29 09:14:04 [notice] 1144#0: using the "epoll" event method
+2019/05/29 09:14:04 [notice] 1144#0: start worker processes
+2019/05/29 09:14:04 [notice] 1144#0: start worker processes
+2019/05/29 09:14:04 [notice] 1144#0: start worker process 1150
+2019/05/29 09:14:04 [notice] 1144#0: start worker process 1150
+2019/05/29 09:14:04 [notice] 1145#0: gracefully shutting down
+2019/05/29 09:14:04 [notice] 1145#0: gracefully shutting down
+2019/05/29 09:14:04 [notice] 1145#0: exiting
+2019/05/29 09:14:04 [notice] 1145#0: exiting
+2019/05/29 09:14:04 [notice] 1145#0: exit
+2019/05/29 09:14:04 [notice] 1144#0: signal 17 (SIGCHLD) received from 1145
+2019/05/29 09:14:04 [notice] 1144#0: signal 17 (SIGCHLD) received from 1145
+2019/05/29 09:14:04 [notice] 1144#0: worker process 1145 exited with code 0
+2019/05/29 09:14:04 [notice] 1144#0: worker process 1145 exited with code 0
+2019/05/29 09:14:04 [notice] 1144#0: signal 29 (SIGIO) received
+2019/05/29 09:14:04 [notice] 1144#0: signal 29 (SIGIO) received
+2019/05/29 09:14:08 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *7 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-libs.3dfb7769.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-libs.3dfb7769.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *7 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-libs.3dfb7769.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-libs.3dfb7769.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *7 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-libs.3dfb7769.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-libs.3dfb7769.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *8 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/app.2fa97c6d.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/app.2fa97c6d.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *8 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/app.2fa97c6d.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/app.2fa97c6d.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *8 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/app.2fa97c6d.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/app.2fa97c6d.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *9 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *9 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *9 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *10 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *10 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *10 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *11 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *11 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *11 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *11 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *11 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *11 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *11 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *11 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *11 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *11 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *11 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:08 [error] 1139#0: *11 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *9 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/app.2fa97c6d.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/app.2fa97c6d.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *9 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/app.2fa97c6d.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/app.2fa97c6d.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *9 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/app.2fa97c6d.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/app.2fa97c6d.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *10 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-libs.3dfb7769.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-libs.3dfb7769.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *10 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-libs.3dfb7769.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-libs.3dfb7769.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *10 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-libs.3dfb7769.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-libs.3dfb7769.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *11 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *11 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *11 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *3 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *7 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *7 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *7 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *8 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *8 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *8 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-elementUI.d7e33256.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-elementUI.d7e33256.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *8 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *8 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *8 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/chunk-libs.ebb97de5.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/chunk-libs.ebb97de5.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *8 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *8 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:12 [error] 1139#0: *8 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/js/app.c120566f.js" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/js/app.c120566f.js HTTP/1.1", host: "static.dev.cn", referrer: "http://127.0.0.1:8000/"
+2019/05/29 09:14:15 [error] 1139#0: *8 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:14:15 [error] 1139#0: *8 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:14:15 [error] 1139#0: *8 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:15:29 [alert] 1154#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:15:29 [notice] 1154#0: signal process started
+2019/05/29 09:15:29 [notice] 1144#0: signal 1 (SIGHUP) received from 1154, reconfiguring
+2019/05/29 09:15:29 [notice] 1144#0: signal 1 (SIGHUP) received from 1154, reconfiguring
+2019/05/29 09:15:29 [notice] 1144#0: reconfiguring
+2019/05/29 09:15:29 [notice] 1144#0: reconfiguring
+2019/05/29 09:15:29 [alert] 1144#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:15:29 [alert] 1144#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:15:29 [alert] 1144#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:15:29 [notice] 1144#0: using the "epoll" event method
+2019/05/29 09:15:29 [notice] 1144#0: using the "epoll" event method
+2019/05/29 09:15:29 [notice] 1144#0: start worker processes
+2019/05/29 09:15:29 [notice] 1144#0: start worker processes
+2019/05/29 09:15:29 [notice] 1144#0: start worker process 1155
+2019/05/29 09:15:29 [notice] 1144#0: start worker process 1155
+2019/05/29 09:15:29 [notice] 1150#0: gracefully shutting down
+2019/05/29 09:15:29 [notice] 1150#0: gracefully shutting down
+2019/05/29 09:15:29 [notice] 1150#0: exiting
+2019/05/29 09:15:29 [notice] 1150#0: exiting
+2019/05/29 09:15:29 [notice] 1150#0: exit
+2019/05/29 09:15:29 [notice] 1144#0: signal 17 (SIGCHLD) received from 1150
+2019/05/29 09:15:29 [notice] 1144#0: signal 17 (SIGCHLD) received from 1150
+2019/05/29 09:15:29 [notice] 1144#0: worker process 1150 exited with code 0
+2019/05/29 09:15:29 [notice] 1144#0: worker process 1150 exited with code 0
+2019/05/29 09:15:29 [notice] 1144#0: signal 29 (SIGIO) received
+2019/05/29 09:15:29 [notice] 1144#0: signal 29 (SIGIO) received
+2019/05/29 09:15:38 [error] 1139#0: *12 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:15:38 [error] 1139#0: *12 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:15:38 [error] 1139#0: *12 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:16:38 [info] 1139#0: *13 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 09:20:46 [alert] 1162#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:20:46 [notice] 1162#0: signal process started
+2019/05/29 09:20:46 [notice] 1144#0: signal 1 (SIGHUP) received from 1162, reconfiguring
+2019/05/29 09:20:46 [notice] 1144#0: signal 1 (SIGHUP) received from 1162, reconfiguring
+2019/05/29 09:20:46 [notice] 1144#0: reconfiguring
+2019/05/29 09:20:46 [notice] 1144#0: reconfiguring
+2019/05/29 09:20:46 [alert] 1144#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:20:46 [alert] 1144#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:20:46 [alert] 1144#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:20:46 [notice] 1144#0: using the "epoll" event method
+2019/05/29 09:20:46 [notice] 1144#0: using the "epoll" event method
+2019/05/29 09:20:46 [notice] 1144#0: start worker processes
+2019/05/29 09:20:46 [notice] 1144#0: start worker processes
+2019/05/29 09:20:46 [notice] 1144#0: start worker process 1163
+2019/05/29 09:20:46 [notice] 1144#0: start worker process 1163
+2019/05/29 09:20:46 [notice] 1155#0: gracefully shutting down
+2019/05/29 09:20:46 [notice] 1155#0: gracefully shutting down
+2019/05/29 09:20:46 [notice] 1155#0: exiting
+2019/05/29 09:20:46 [notice] 1155#0: exiting
+2019/05/29 09:20:46 [notice] 1155#0: exit
+2019/05/29 09:20:46 [notice] 1144#0: signal 17 (SIGCHLD) received from 1155
+2019/05/29 09:20:46 [notice] 1144#0: signal 17 (SIGCHLD) received from 1155
+2019/05/29 09:20:46 [notice] 1144#0: worker process 1155 exited with code 0
+2019/05/29 09:20:46 [notice] 1144#0: worker process 1155 exited with code 0
+2019/05/29 09:20:46 [notice] 1144#0: signal 29 (SIGIO) received
+2019/05/29 09:20:46 [notice] 1144#0: signal 29 (SIGIO) received
+2019/05/29 09:20:50 [error] 1139#0: *15 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:20:50 [error] 1139#0: *15 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:20:50 [error] 1139#0: *15 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:21:01 [info] 1139#0: *14 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 09:21:52 [alert] 1167#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:21:52 [notice] 1167#0: signal process started
+2019/05/29 09:21:52 [notice] 1144#0: signal 15 (SIGTERM) received from 1167, exiting
+2019/05/29 09:21:52 [notice] 1144#0: signal 15 (SIGTERM) received from 1167, exiting
+2019/05/29 09:21:52 [notice] 1163#0: exiting
+2019/05/29 09:21:52 [notice] 1163#0: exiting
+2019/05/29 09:21:52 [notice] 1163#0: exit
+2019/05/29 09:21:52 [notice] 1144#0: signal 17 (SIGCHLD) received from 1163
+2019/05/29 09:21:52 [notice] 1144#0: signal 17 (SIGCHLD) received from 1163
+2019/05/29 09:21:52 [notice] 1144#0: worker process 1163 exited with code 0
+2019/05/29 09:21:52 [notice] 1144#0: worker process 1163 exited with code 0
+2019/05/29 09:21:52 [notice] 1144#0: exit
+2019/05/29 09:21:52 [notice] 1144#0: exit
+2019/05/29 09:21:54 [error] 1139#0: *15 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:21:54 [error] 1139#0: *15 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:21:54 [error] 1139#0: *15 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:21:57 [error] 1139#0: *15 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:21:57 [error] 1139#0: *15 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:21:57 [error] 1139#0: *15 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:21:58 [error] 1139#0: *15 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:21:58 [error] 1139#0: *15 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:21:58 [error] 1139#0: *15 open() "/mnt/e/projectHome/basesite/web/static/pc/dist/pc/static/css/chunk-elementUI.a8b08852.css" failed (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET /pc/static/css/chunk-elementUI.a8b08852.css HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:22:04 [error] 1139#0: *15 "/mnt/e/projectHome/basesite/web/static/pc/dist/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET / HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:22:04 [error] 1139#0: *15 "/mnt/e/projectHome/basesite/web/static/pc/dist/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET / HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:22:04 [error] 1139#0: *15 "/mnt/e/projectHome/basesite/web/static/pc/dist/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: static.dev.cn, request: "GET / HTTP/1.1", host: "static.dev.cn"
+2019/05/29 09:22:05 [info] 1139#0: *16 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 09:23:01 [alert] 1171#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:23:01 [notice] 1171#0: using the "epoll" event method
+2019/05/29 09:23:01 [notice] 1171#0: using the "epoll" event method
+2019/05/29 09:23:01 [notice] 1171#0: openresty/1.15.8.1
+2019/05/29 09:23:01 [notice] 1171#0: openresty/1.15.8.1
+2019/05/29 09:23:01 [notice] 1171#0: built by gcc 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
+2019/05/29 09:23:01 [notice] 1171#0: built by gcc 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
+2019/05/29 09:23:01 [notice] 1171#0: OS: Linux 4.4.0-17763-Microsoft
+2019/05/29 09:23:01 [notice] 1171#0: OS: Linux 4.4.0-17763-Microsoft
+2019/05/29 09:23:01 [notice] 1171#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2019/05/29 09:23:01 [notice] 1171#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2019/05/29 09:23:01 [notice] 1172#0: start worker processes
+2019/05/29 09:23:01 [notice] 1172#0: start worker processes
+2019/05/29 09:23:01 [notice] 1172#0: start worker process 1173
+2019/05/29 09:23:01 [notice] 1172#0: start worker process 1173
+2019/05/29 09:26:15 [info] 1173#0: *8 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 09:26:37 [info] 1173#0: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 09:26:37 [info] 1173#0: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 09:36:38 [info] 1173#0: *32 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 09:37:24 [alert] 1195#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:37:24 [notice] 1195#0: signal process started
+2019/05/29 09:37:24 [notice] 1172#0: signal 1 (SIGHUP) received from 1195, reconfiguring
+2019/05/29 09:37:24 [notice] 1172#0: signal 1 (SIGHUP) received from 1195, reconfiguring
+2019/05/29 09:37:24 [notice] 1172#0: reconfiguring
+2019/05/29 09:37:24 [notice] 1172#0: reconfiguring
+2019/05/29 09:37:24 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:37:24 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:37:24 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:37:24 [notice] 1172#0: using the "epoll" event method
+2019/05/29 09:37:24 [notice] 1172#0: using the "epoll" event method
+2019/05/29 09:37:24 [notice] 1172#0: start worker processes
+2019/05/29 09:37:24 [notice] 1172#0: start worker processes
+2019/05/29 09:37:24 [notice] 1172#0: start worker process 1196
+2019/05/29 09:37:24 [notice] 1172#0: start worker process 1196
+2019/05/29 09:37:24 [notice] 1173#0: gracefully shutting down
+2019/05/29 09:37:24 [notice] 1173#0: gracefully shutting down
+2019/05/29 09:37:24 [notice] 1173#0: exiting
+2019/05/29 09:37:24 [notice] 1173#0: exiting
+2019/05/29 09:37:24 [notice] 1173#0: exit
+2019/05/29 09:37:24 [notice] 1172#0: signal 17 (SIGCHLD) received from 1173
+2019/05/29 09:37:24 [notice] 1172#0: signal 17 (SIGCHLD) received from 1173
+2019/05/29 09:37:24 [notice] 1172#0: worker process 1173 exited with code 0
+2019/05/29 09:37:24 [notice] 1172#0: worker process 1173 exited with code 0
+2019/05/29 09:37:24 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 09:37:24 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 09:38:08 [info] 1196#0: *40 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 09:45:19 [alert] 1199#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:45:19 [notice] 1199#0: signal process started
+2019/05/29 09:45:19 [notice] 1172#0: signal 1 (SIGHUP) received from 1199, reconfiguring
+2019/05/29 09:45:19 [notice] 1172#0: signal 1 (SIGHUP) received from 1199, reconfiguring
+2019/05/29 09:45:19 [notice] 1172#0: reconfiguring
+2019/05/29 09:45:19 [notice] 1172#0: reconfiguring
+2019/05/29 09:45:19 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:45:19 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:45:19 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:45:19 [notice] 1172#0: using the "epoll" event method
+2019/05/29 09:45:19 [notice] 1172#0: using the "epoll" event method
+2019/05/29 09:45:19 [notice] 1172#0: start worker processes
+2019/05/29 09:45:19 [notice] 1172#0: start worker processes
+2019/05/29 09:45:19 [notice] 1172#0: start worker process 1200
+2019/05/29 09:45:19 [notice] 1172#0: start worker process 1200
+2019/05/29 09:45:19 [notice] 1196#0: gracefully shutting down
+2019/05/29 09:45:19 [notice] 1196#0: gracefully shutting down
+2019/05/29 09:45:19 [notice] 1196#0: exiting
+2019/05/29 09:45:19 [notice] 1196#0: exiting
+2019/05/29 09:45:19 [notice] 1196#0: exit
+2019/05/29 09:45:19 [notice] 1172#0: signal 17 (SIGCHLD) received from 1196
+2019/05/29 09:45:19 [notice] 1172#0: signal 17 (SIGCHLD) received from 1196
+2019/05/29 09:45:19 [notice] 1172#0: worker process 1196 exited with code 0
+2019/05/29 09:45:19 [notice] 1172#0: worker process 1196 exited with code 0
+2019/05/29 09:45:19 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 09:45:19 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 09:46:15 [info] 1200#0: *57 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 09:46:15 [error] 1200#0: *59 "/mnt/e/projectHome/basesite/web/static/mobile/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: m.dev.cn, request: "GET // HTTP/1.1", host: "m.dev.cn"
+2019/05/29 09:46:15 [error] 1200#0: *59 "/mnt/e/projectHome/basesite/web/static/mobile/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: m.dev.cn, request: "GET // HTTP/1.1", host: "m.dev.cn"
+2019/05/29 09:46:15 [error] 1200#0: *59 "/mnt/e/projectHome/basesite/web/static/mobile/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: m.dev.cn, request: "GET // HTTP/1.1", host: "m.dev.cn"
+2019/05/29 09:46:19 [error] 1200#0: *59 "/mnt/e/projectHome/basesite/web/static/mobile/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: m.dev.cn, request: "GET // HTTP/1.1", host: "m.dev.cn"
+2019/05/29 09:46:19 [error] 1200#0: *59 "/mnt/e/projectHome/basesite/web/static/mobile/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: m.dev.cn, request: "GET // HTTP/1.1", host: "m.dev.cn"
+2019/05/29 09:46:19 [error] 1200#0: *59 "/mnt/e/projectHome/basesite/web/static/mobile/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: m.dev.cn, request: "GET // HTTP/1.1", host: "m.dev.cn"
+2019/05/29 09:46:22 [error] 1200#0: *59 open() "/mnt/e/projectHome/basesite/web/static/mobile/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: m.dev.cn, request: "GET /favicon.ico HTTP/1.1", host: "m.dev.cn", referrer: "http://m.dev.cn//"
+2019/05/29 09:46:22 [error] 1200#0: *59 open() "/mnt/e/projectHome/basesite/web/static/mobile/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: m.dev.cn, request: "GET /favicon.ico HTTP/1.1", host: "m.dev.cn", referrer: "http://m.dev.cn//"
+2019/05/29 09:46:22 [error] 1200#0: *59 open() "/mnt/e/projectHome/basesite/web/static/mobile/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: m.dev.cn, request: "GET /favicon.ico HTTP/1.1", host: "m.dev.cn", referrer: "http://m.dev.cn//"
+2019/05/29 09:46:49 [info] 1200#0: *60 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 09:46:49 [info] 1200#0: *58 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 09:49:46 [info] 1200#0: *62 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 09:57:26 [alert] 1209#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:57:26 [notice] 1209#0: signal process started
+2019/05/29 09:57:26 [notice] 1172#0: signal 1 (SIGHUP) received from 1209, reconfiguring
+2019/05/29 09:57:26 [notice] 1172#0: signal 1 (SIGHUP) received from 1209, reconfiguring
+2019/05/29 09:57:26 [notice] 1172#0: reconfiguring
+2019/05/29 09:57:26 [notice] 1172#0: reconfiguring
+2019/05/29 09:57:26 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:57:26 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:57:26 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:57:26 [notice] 1172#0: using the "epoll" event method
+2019/05/29 09:57:26 [notice] 1172#0: using the "epoll" event method
+2019/05/29 09:57:26 [notice] 1172#0: start worker processes
+2019/05/29 09:57:26 [notice] 1172#0: start worker processes
+2019/05/29 09:57:26 [notice] 1172#0: start worker process 1210
+2019/05/29 09:57:26 [notice] 1172#0: start worker process 1210
+2019/05/29 09:57:26 [notice] 1200#0: gracefully shutting down
+2019/05/29 09:57:26 [notice] 1200#0: gracefully shutting down
+2019/05/29 09:57:26 [notice] 1200#0: exiting
+2019/05/29 09:57:26 [notice] 1200#0: exiting
+2019/05/29 09:57:26 [notice] 1200#0: exit
+2019/05/29 09:57:26 [notice] 1172#0: signal 17 (SIGCHLD) received from 1200
+2019/05/29 09:57:26 [notice] 1172#0: signal 17 (SIGCHLD) received from 1200
+2019/05/29 09:57:26 [notice] 1172#0: worker process 1200 exited with code 0
+2019/05/29 09:57:26 [notice] 1172#0: worker process 1200 exited with code 0
+2019/05/29 09:57:26 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 09:57:26 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 09:58:17 [alert] 1218#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:58:17 [notice] 1218#0: signal process started
+2019/05/29 09:58:17 [notice] 1172#0: signal 1 (SIGHUP) received from 1218, reconfiguring
+2019/05/29 09:58:17 [notice] 1172#0: signal 1 (SIGHUP) received from 1218, reconfiguring
+2019/05/29 09:58:17 [notice] 1172#0: reconfiguring
+2019/05/29 09:58:17 [notice] 1172#0: reconfiguring
+2019/05/29 09:58:17 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:58:17 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:58:17 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 09:58:17 [notice] 1172#0: using the "epoll" event method
+2019/05/29 09:58:17 [notice] 1172#0: using the "epoll" event method
+2019/05/29 09:58:17 [notice] 1172#0: start worker processes
+2019/05/29 09:58:17 [notice] 1172#0: start worker processes
+2019/05/29 09:58:17 [notice] 1172#0: start worker process 1219
+2019/05/29 09:58:17 [notice] 1172#0: start worker process 1219
+2019/05/29 09:58:17 [notice] 1210#0: gracefully shutting down
+2019/05/29 09:58:17 [notice] 1210#0: gracefully shutting down
+2019/05/29 09:58:19 [info] 1210#0: *73 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 09:58:19 [notice] 1210#0: exiting
+2019/05/29 09:58:19 [notice] 1210#0: exiting
+2019/05/29 09:58:19 [notice] 1210#0: exit
+2019/05/29 09:58:19 [notice] 1172#0: signal 17 (SIGCHLD) received from 1210
+2019/05/29 09:58:19 [notice] 1172#0: signal 17 (SIGCHLD) received from 1210
+2019/05/29 09:58:19 [notice] 1172#0: worker process 1210 exited with code 0
+2019/05/29 09:58:19 [notice] 1172#0: worker process 1210 exited with code 0
+2019/05/29 09:58:19 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 09:58:19 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 09:59:19 [info] 1219#0: *78 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:02:22 [alert] 1222#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:02:22 [notice] 1222#0: signal process started
+2019/05/29 10:02:22 [notice] 1172#0: signal 1 (SIGHUP) received from 1222, reconfiguring
+2019/05/29 10:02:22 [notice] 1172#0: signal 1 (SIGHUP) received from 1222, reconfiguring
+2019/05/29 10:02:22 [notice] 1172#0: reconfiguring
+2019/05/29 10:02:22 [notice] 1172#0: reconfiguring
+2019/05/29 10:02:22 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:02:22 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:02:22 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:02:22 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:02:22 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:02:22 [notice] 1172#0: start worker processes
+2019/05/29 10:02:22 [notice] 1172#0: start worker processes
+2019/05/29 10:02:22 [notice] 1172#0: start worker process 1223
+2019/05/29 10:02:22 [notice] 1172#0: start worker process 1223
+2019/05/29 10:02:22 [notice] 1219#0: gracefully shutting down
+2019/05/29 10:02:22 [notice] 1219#0: gracefully shutting down
+2019/05/29 10:02:22 [notice] 1219#0: exiting
+2019/05/29 10:02:22 [notice] 1219#0: exiting
+2019/05/29 10:02:22 [notice] 1219#0: exit
+2019/05/29 10:02:22 [notice] 1172#0: signal 17 (SIGCHLD) received from 1219
+2019/05/29 10:02:22 [notice] 1172#0: signal 17 (SIGCHLD) received from 1219
+2019/05/29 10:02:22 [notice] 1172#0: worker process 1219 exited with code 0
+2019/05/29 10:02:22 [notice] 1172#0: worker process 1219 exited with code 0
+2019/05/29 10:02:22 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:02:22 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:02:25 [error] 1223#0: *80 directory index of "/mnt/e/projectHome/basesite/web/static/" is forbidden, client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:02:25 [error] 1223#0: *80 directory index of "/mnt/e/projectHome/basesite/web/static/" is forbidden, client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:02:25 [error] 1223#0: *80 directory index of "/mnt/e/projectHome/basesite/web/static/" is forbidden, client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:02:38 [info] 1223#0: *81 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:02:39 [error] 1223#0: *80 directory index of "/mnt/e/projectHome/basesite/web/static/" is forbidden, client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:02:39 [error] 1223#0: *80 directory index of "/mnt/e/projectHome/basesite/web/static/" is forbidden, client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:02:39 [error] 1223#0: *80 directory index of "/mnt/e/projectHome/basesite/web/static/" is forbidden, client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:03:04 [alert] 1225#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:03:04 [notice] 1225#0: signal process started
+2019/05/29 10:03:04 [notice] 1172#0: signal 1 (SIGHUP) received from 1225, reconfiguring
+2019/05/29 10:03:04 [notice] 1172#0: signal 1 (SIGHUP) received from 1225, reconfiguring
+2019/05/29 10:03:04 [notice] 1172#0: reconfiguring
+2019/05/29 10:03:04 [notice] 1172#0: reconfiguring
+2019/05/29 10:03:04 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:03:04 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:03:04 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:03:04 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:03:04 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:03:04 [notice] 1172#0: start worker processes
+2019/05/29 10:03:04 [notice] 1172#0: start worker processes
+2019/05/29 10:03:04 [notice] 1172#0: start worker process 1226
+2019/05/29 10:03:04 [notice] 1172#0: start worker process 1226
+2019/05/29 10:03:04 [notice] 1223#0: gracefully shutting down
+2019/05/29 10:03:04 [notice] 1223#0: gracefully shutting down
+2019/05/29 10:03:07 [info] 1223#0: *82 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:03:07 [notice] 1223#0: exiting
+2019/05/29 10:03:07 [notice] 1223#0: exiting
+2019/05/29 10:03:07 [notice] 1223#0: exit
+2019/05/29 10:03:07 [notice] 1172#0: signal 17 (SIGCHLD) received from 1223
+2019/05/29 10:03:07 [notice] 1172#0: signal 17 (SIGCHLD) received from 1223
+2019/05/29 10:03:07 [notice] 1172#0: worker process 1223 exited with code 0
+2019/05/29 10:03:07 [notice] 1172#0: worker process 1223 exited with code 0
+2019/05/29 10:03:07 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:03:07 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:03:20 [alert] 1230#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:03:20 [notice] 1230#0: signal process started
+2019/05/29 10:03:20 [notice] 1172#0: signal 1 (SIGHUP) received from 1230, reconfiguring
+2019/05/29 10:03:20 [notice] 1172#0: signal 1 (SIGHUP) received from 1230, reconfiguring
+2019/05/29 10:03:20 [notice] 1172#0: reconfiguring
+2019/05/29 10:03:20 [notice] 1172#0: reconfiguring
+2019/05/29 10:03:20 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:03:20 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:03:20 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:03:20 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:03:20 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:03:20 [notice] 1172#0: start worker processes
+2019/05/29 10:03:20 [notice] 1172#0: start worker processes
+2019/05/29 10:03:20 [notice] 1172#0: start worker process 1231
+2019/05/29 10:03:20 [notice] 1172#0: start worker process 1231
+2019/05/29 10:03:21 [notice] 1226#0: gracefully shutting down
+2019/05/29 10:03:21 [notice] 1226#0: gracefully shutting down
+2019/05/29 10:03:22 [info] 1226#0: *83 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:03:22 [notice] 1226#0: exiting
+2019/05/29 10:03:22 [notice] 1226#0: exiting
+2019/05/29 10:03:22 [notice] 1226#0: exit
+2019/05/29 10:03:22 [notice] 1172#0: signal 17 (SIGCHLD) received from 1226
+2019/05/29 10:03:22 [notice] 1172#0: signal 17 (SIGCHLD) received from 1226
+2019/05/29 10:03:22 [notice] 1172#0: worker process 1226 exited with code 0
+2019/05/29 10:03:22 [notice] 1172#0: worker process 1226 exited with code 0
+2019/05/29 10:03:22 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:03:22 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:03:35 [info] 1231#0: *87 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:03:58 [alert] 1236#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:03:58 [notice] 1236#0: signal process started
+2019/05/29 10:03:58 [notice] 1172#0: signal 1 (SIGHUP) received from 1236, reconfiguring
+2019/05/29 10:03:58 [notice] 1172#0: signal 1 (SIGHUP) received from 1236, reconfiguring
+2019/05/29 10:03:58 [notice] 1172#0: reconfiguring
+2019/05/29 10:03:58 [notice] 1172#0: reconfiguring
+2019/05/29 10:03:58 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:03:58 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:03:58 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:03:58 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:03:58 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:03:58 [notice] 1172#0: start worker processes
+2019/05/29 10:03:58 [notice] 1172#0: start worker processes
+2019/05/29 10:03:58 [notice] 1172#0: start worker process 1237
+2019/05/29 10:03:58 [notice] 1172#0: start worker process 1237
+2019/05/29 10:03:58 [notice] 1231#0: gracefully shutting down
+2019/05/29 10:03:58 [notice] 1231#0: gracefully shutting down
+2019/05/29 10:04:00 [info] 1231#0: *92 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:04:00 [notice] 1231#0: exiting
+2019/05/29 10:04:00 [notice] 1231#0: exiting
+2019/05/29 10:04:00 [notice] 1231#0: exit
+2019/05/29 10:04:00 [notice] 1172#0: signal 17 (SIGCHLD) received from 1231
+2019/05/29 10:04:00 [notice] 1172#0: signal 17 (SIGCHLD) received from 1231
+2019/05/29 10:04:00 [notice] 1172#0: worker process 1231 exited with code 0
+2019/05/29 10:04:00 [notice] 1172#0: worker process 1231 exited with code 0
+2019/05/29 10:04:00 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:04:00 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:05:00 [info] 1237#0: *93 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:05:09 [alert] 1247#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:05:09 [notice] 1247#0: signal process started
+2019/05/29 10:05:09 [notice] 1172#0: signal 1 (SIGHUP) received from 1247, reconfiguring
+2019/05/29 10:05:09 [notice] 1172#0: signal 1 (SIGHUP) received from 1247, reconfiguring
+2019/05/29 10:05:09 [notice] 1172#0: reconfiguring
+2019/05/29 10:05:09 [notice] 1172#0: reconfiguring
+2019/05/29 10:05:09 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:05:09 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:05:09 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:05:09 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:05:09 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:05:09 [notice] 1172#0: start worker processes
+2019/05/29 10:05:09 [notice] 1172#0: start worker processes
+2019/05/29 10:05:09 [notice] 1172#0: start worker process 1248
+2019/05/29 10:05:09 [notice] 1172#0: start worker process 1248
+2019/05/29 10:05:10 [notice] 1237#0: gracefully shutting down
+2019/05/29 10:05:10 [notice] 1237#0: gracefully shutting down
+2019/05/29 10:05:10 [notice] 1237#0: exiting
+2019/05/29 10:05:10 [notice] 1237#0: exiting
+2019/05/29 10:05:10 [notice] 1237#0: exit
+2019/05/29 10:05:10 [notice] 1172#0: signal 17 (SIGCHLD) received from 1237
+2019/05/29 10:05:10 [notice] 1172#0: signal 17 (SIGCHLD) received from 1237
+2019/05/29 10:05:10 [notice] 1172#0: worker process 1237 exited with code 0
+2019/05/29 10:05:10 [notice] 1172#0: worker process 1237 exited with code 0
+2019/05/29 10:05:10 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:05:10 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:06:12 [info] 1248#0: *103 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:06:48 [alert] 1253#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:06:48 [notice] 1253#0: signal process started
+2019/05/29 10:06:48 [notice] 1172#0: signal 1 (SIGHUP) received from 1253, reconfiguring
+2019/05/29 10:06:48 [notice] 1172#0: signal 1 (SIGHUP) received from 1253, reconfiguring
+2019/05/29 10:06:48 [notice] 1172#0: reconfiguring
+2019/05/29 10:06:48 [notice] 1172#0: reconfiguring
+2019/05/29 10:06:48 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:06:48 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:06:48 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:06:48 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:06:48 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:06:48 [notice] 1172#0: start worker processes
+2019/05/29 10:06:48 [notice] 1172#0: start worker processes
+2019/05/29 10:06:48 [notice] 1172#0: start worker process 1254
+2019/05/29 10:06:48 [notice] 1172#0: start worker process 1254
+2019/05/29 10:06:48 [notice] 1248#0: gracefully shutting down
+2019/05/29 10:06:48 [notice] 1248#0: gracefully shutting down
+2019/05/29 10:06:48 [notice] 1248#0: exiting
+2019/05/29 10:06:48 [notice] 1248#0: exiting
+2019/05/29 10:06:48 [notice] 1248#0: exit
+2019/05/29 10:06:48 [notice] 1172#0: signal 17 (SIGCHLD) received from 1248
+2019/05/29 10:06:48 [notice] 1172#0: signal 17 (SIGCHLD) received from 1248
+2019/05/29 10:06:48 [notice] 1172#0: worker process 1248 exited with code 0
+2019/05/29 10:06:48 [notice] 1172#0: worker process 1248 exited with code 0
+2019/05/29 10:06:48 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:06:48 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:06:50 [error] 1254#0: *107 open() "/mnt/e/projectHome/basesite/sa/openresty/html/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:06:50 [error] 1254#0: *107 open() "/mnt/e/projectHome/basesite/sa/openresty/html/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:06:50 [error] 1254#0: *107 open() "/mnt/e/projectHome/basesite/sa/openresty/html/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:06:54 [error] 1254#0: *107 open() "/mnt/e/projectHome/basesite/sa/openresty/html/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:06:54 [error] 1254#0: *107 open() "/mnt/e/projectHome/basesite/sa/openresty/html/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:06:54 [error] 1254#0: *107 open() "/mnt/e/projectHome/basesite/sa/openresty/html/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:07:12 [info] 1254#0: *108 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:13:49 [alert] 1269#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:13:49 [notice] 1269#0: signal process started
+2019/05/29 10:13:49 [notice] 1172#0: signal 1 (SIGHUP) received from 1269, reconfiguring
+2019/05/29 10:13:49 [notice] 1172#0: signal 1 (SIGHUP) received from 1269, reconfiguring
+2019/05/29 10:13:49 [notice] 1172#0: reconfiguring
+2019/05/29 10:13:49 [notice] 1172#0: reconfiguring
+2019/05/29 10:13:49 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:13:49 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:13:49 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:13:49 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:13:49 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:13:49 [notice] 1172#0: start worker processes
+2019/05/29 10:13:49 [notice] 1172#0: start worker processes
+2019/05/29 10:13:49 [notice] 1172#0: start worker process 1270
+2019/05/29 10:13:49 [notice] 1172#0: start worker process 1270
+2019/05/29 10:13:49 [notice] 1254#0: gracefully shutting down
+2019/05/29 10:13:49 [notice] 1254#0: gracefully shutting down
+2019/05/29 10:13:49 [notice] 1254#0: exiting
+2019/05/29 10:13:49 [notice] 1254#0: exiting
+2019/05/29 10:13:49 [notice] 1254#0: exit
+2019/05/29 10:13:49 [notice] 1172#0: signal 17 (SIGCHLD) received from 1254
+2019/05/29 10:13:49 [notice] 1172#0: signal 17 (SIGCHLD) received from 1254
+2019/05/29 10:13:49 [notice] 1172#0: worker process 1254 exited with code 0
+2019/05/29 10:13:49 [notice] 1172#0: worker process 1254 exited with code 0
+2019/05/29 10:13:49 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:13:49 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:13:59 [error] 1270#0: *109 open() "/mnt/e/projectHome/basesite/sa/openresty/html/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:13:59 [error] 1270#0: *109 open() "/mnt/e/projectHome/basesite/sa/openresty/html/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:13:59 [error] 1270#0: *109 open() "/mnt/e/projectHome/basesite/sa/openresty/html/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:14:34 [info] 1270#0: *110 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:14:37 [error] 1270#0: *109 open() "/mnt/e/projectHome/basesite/sa/openresty/html/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:14:37 [error] 1270#0: *109 open() "/mnt/e/projectHome/basesite/sa/openresty/html/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:14:37 [error] 1270#0: *109 open() "/mnt/e/projectHome/basesite/sa/openresty/html/index.html" failed (2: No such file or directory), client: 127.0.0.1, server: www.dev.cn, request: "GET / HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:15:23 [alert] 1278#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:15:23 [notice] 1278#0: signal process started
+2019/05/29 10:15:23 [notice] 1172#0: signal 1 (SIGHUP) received from 1278, reconfiguring
+2019/05/29 10:15:23 [notice] 1172#0: signal 1 (SIGHUP) received from 1278, reconfiguring
+2019/05/29 10:15:23 [notice] 1172#0: reconfiguring
+2019/05/29 10:15:23 [notice] 1172#0: reconfiguring
+2019/05/29 10:15:23 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:15:23 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:15:23 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:15:23 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:15:23 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:15:23 [notice] 1172#0: start worker processes
+2019/05/29 10:15:23 [notice] 1172#0: start worker processes
+2019/05/29 10:15:23 [notice] 1172#0: start worker process 1279
+2019/05/29 10:15:23 [notice] 1172#0: start worker process 1279
+2019/05/29 10:15:24 [notice] 1270#0: gracefully shutting down
+2019/05/29 10:15:24 [notice] 1270#0: gracefully shutting down
+2019/05/29 10:15:25 [info] 1270#0: *111 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:15:25 [notice] 1270#0: exiting
+2019/05/29 10:15:25 [notice] 1270#0: exiting
+2019/05/29 10:15:25 [notice] 1270#0: exit
+2019/05/29 10:15:25 [notice] 1172#0: signal 17 (SIGCHLD) received from 1270
+2019/05/29 10:15:25 [notice] 1172#0: signal 17 (SIGCHLD) received from 1270
+2019/05/29 10:15:25 [notice] 1172#0: worker process 1270 exited with code 0
+2019/05/29 10:15:25 [notice] 1172#0: worker process 1270 exited with code 0
+2019/05/29 10:15:25 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:15:25 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:15:43 [info] 1279#0: *113 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:18:07 [alert] 1281#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:18:07 [notice] 1281#0: signal process started
+2019/05/29 10:18:07 [notice] 1172#0: signal 1 (SIGHUP) received from 1281, reconfiguring
+2019/05/29 10:18:07 [notice] 1172#0: signal 1 (SIGHUP) received from 1281, reconfiguring
+2019/05/29 10:18:07 [notice] 1172#0: reconfiguring
+2019/05/29 10:18:07 [notice] 1172#0: reconfiguring
+2019/05/29 10:18:07 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:18:07 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:18:07 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:18:07 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:18:07 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:18:07 [notice] 1172#0: start worker processes
+2019/05/29 10:18:07 [notice] 1172#0: start worker processes
+2019/05/29 10:18:07 [notice] 1172#0: start worker process 1282
+2019/05/29 10:18:07 [notice] 1172#0: start worker process 1282
+2019/05/29 10:18:07 [notice] 1279#0: gracefully shutting down
+2019/05/29 10:18:07 [notice] 1279#0: gracefully shutting down
+2019/05/29 10:18:07 [notice] 1279#0: exiting
+2019/05/29 10:18:07 [notice] 1279#0: exiting
+2019/05/29 10:18:07 [notice] 1279#0: exit
+2019/05/29 10:18:07 [notice] 1172#0: signal 17 (SIGCHLD) received from 1279
+2019/05/29 10:18:07 [notice] 1172#0: signal 17 (SIGCHLD) received from 1279
+2019/05/29 10:18:07 [notice] 1172#0: worker process 1279 exited with code 0
+2019/05/29 10:18:07 [notice] 1172#0: worker process 1279 exited with code 0
+2019/05/29 10:18:07 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:18:07 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:18:25 [info] 1282#0: *114 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:19:25 [info] 1282#0: *118 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:21:21 [alert] 1288#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:21:21 [notice] 1288#0: signal process started
+2019/05/29 10:21:21 [notice] 1172#0: signal 1 (SIGHUP) received from 1288, reconfiguring
+2019/05/29 10:21:21 [notice] 1172#0: signal 1 (SIGHUP) received from 1288, reconfiguring
+2019/05/29 10:21:21 [notice] 1172#0: reconfiguring
+2019/05/29 10:21:21 [notice] 1172#0: reconfiguring
+2019/05/29 10:21:21 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:21:21 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:21:21 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:21:21 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:21:21 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:21:21 [notice] 1172#0: start worker processes
+2019/05/29 10:21:21 [notice] 1172#0: start worker processes
+2019/05/29 10:21:21 [notice] 1172#0: start worker process 1289
+2019/05/29 10:21:21 [notice] 1172#0: start worker process 1289
+2019/05/29 10:21:21 [notice] 1282#0: gracefully shutting down
+2019/05/29 10:21:21 [notice] 1282#0: gracefully shutting down
+2019/05/29 10:21:21 [notice] 1282#0: exiting
+2019/05/29 10:21:21 [notice] 1282#0: exiting
+2019/05/29 10:21:21 [notice] 1282#0: exit
+2019/05/29 10:21:21 [notice] 1172#0: signal 17 (SIGCHLD) received from 1282
+2019/05/29 10:21:21 [notice] 1172#0: signal 17 (SIGCHLD) received from 1282
+2019/05/29 10:21:21 [notice] 1172#0: worker process 1282 exited with code 0
+2019/05/29 10:21:21 [notice] 1172#0: worker process 1282 exited with code 0
+2019/05/29 10:21:21 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:21:21 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:21:37 [info] 1289#0: *122 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:22:30 [alert] 1292#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:22:30 [notice] 1292#0: signal process started
+2019/05/29 10:22:30 [notice] 1172#0: signal 1 (SIGHUP) received from 1292, reconfiguring
+2019/05/29 10:22:30 [notice] 1172#0: signal 1 (SIGHUP) received from 1292, reconfiguring
+2019/05/29 10:22:30 [notice] 1172#0: reconfiguring
+2019/05/29 10:22:30 [notice] 1172#0: reconfiguring
+2019/05/29 10:22:30 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:22:30 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:22:30 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:22:30 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:22:30 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:22:30 [notice] 1172#0: start worker processes
+2019/05/29 10:22:30 [notice] 1172#0: start worker processes
+2019/05/29 10:22:30 [notice] 1172#0: start worker process 1293
+2019/05/29 10:22:30 [notice] 1172#0: start worker process 1293
+2019/05/29 10:22:30 [notice] 1289#0: gracefully shutting down
+2019/05/29 10:22:30 [notice] 1289#0: gracefully shutting down
+2019/05/29 10:22:30 [notice] 1289#0: exiting
+2019/05/29 10:22:30 [notice] 1289#0: exiting
+2019/05/29 10:22:30 [notice] 1289#0: exit
+2019/05/29 10:22:30 [notice] 1172#0: signal 17 (SIGCHLD) received from 1289
+2019/05/29 10:22:30 [notice] 1172#0: signal 17 (SIGCHLD) received from 1289
+2019/05/29 10:22:30 [notice] 1172#0: worker process 1289 exited with code 0
+2019/05/29 10:22:30 [notice] 1172#0: worker process 1289 exited with code 0
+2019/05/29 10:22:30 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:22:30 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:22:44 [info] 1293#0: *125 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:23:44 [info] 1293#0: *127 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:27:57 [alert] 1297#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:27:57 [notice] 1297#0: signal process started
+2019/05/29 10:27:57 [notice] 1172#0: signal 1 (SIGHUP) received from 1297, reconfiguring
+2019/05/29 10:27:57 [notice] 1172#0: signal 1 (SIGHUP) received from 1297, reconfiguring
+2019/05/29 10:27:57 [notice] 1172#0: reconfiguring
+2019/05/29 10:27:57 [notice] 1172#0: reconfiguring
+2019/05/29 10:27:57 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:27:57 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:27:57 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:27:57 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:27:57 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:27:57 [notice] 1172#0: start worker processes
+2019/05/29 10:27:57 [notice] 1172#0: start worker processes
+2019/05/29 10:27:57 [notice] 1172#0: start worker process 1298
+2019/05/29 10:27:57 [notice] 1172#0: start worker process 1298
+2019/05/29 10:27:57 [notice] 1293#0: gracefully shutting down
+2019/05/29 10:27:57 [notice] 1293#0: gracefully shutting down
+2019/05/29 10:27:57 [notice] 1293#0: exiting
+2019/05/29 10:27:57 [notice] 1293#0: exiting
+2019/05/29 10:27:57 [notice] 1293#0: exit
+2019/05/29 10:27:57 [notice] 1172#0: signal 17 (SIGCHLD) received from 1293
+2019/05/29 10:27:57 [notice] 1172#0: signal 17 (SIGCHLD) received from 1293
+2019/05/29 10:27:57 [notice] 1172#0: worker process 1293 exited with code 0
+2019/05/29 10:27:57 [notice] 1172#0: worker process 1293 exited with code 0
+2019/05/29 10:27:57 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:27:57 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:28:25 [alert] 1301#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:28:25 [notice] 1301#0: signal process started
+2019/05/29 10:28:25 [notice] 1172#0: signal 1 (SIGHUP) received from 1301, reconfiguring
+2019/05/29 10:28:25 [notice] 1172#0: signal 1 (SIGHUP) received from 1301, reconfiguring
+2019/05/29 10:28:25 [notice] 1172#0: reconfiguring
+2019/05/29 10:28:25 [notice] 1172#0: reconfiguring
+2019/05/29 10:28:25 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:28:25 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:28:25 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:28:25 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:28:25 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:28:25 [notice] 1172#0: start worker processes
+2019/05/29 10:28:25 [notice] 1172#0: start worker processes
+2019/05/29 10:28:25 [notice] 1172#0: start worker process 1302
+2019/05/29 10:28:25 [notice] 1172#0: start worker process 1302
+2019/05/29 10:28:26 [notice] 1298#0: gracefully shutting down
+2019/05/29 10:28:26 [notice] 1298#0: gracefully shutting down
+2019/05/29 10:28:30 [info] 1298#0: *130 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:28:30 [notice] 1298#0: exiting
+2019/05/29 10:28:30 [notice] 1298#0: exiting
+2019/05/29 10:28:30 [notice] 1298#0: exit
+2019/05/29 10:28:30 [notice] 1172#0: signal 17 (SIGCHLD) received from 1298
+2019/05/29 10:28:30 [notice] 1172#0: signal 17 (SIGCHLD) received from 1298
+2019/05/29 10:28:30 [notice] 1172#0: worker process 1298 exited with code 0
+2019/05/29 10:28:30 [notice] 1172#0: worker process 1298 exited with code 0
+2019/05/29 10:28:30 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:28:30 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:28:40 [info] 1302#0: *133 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:28:40 [info] 1302#0: *134 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:29:20 [error] 1302#0: *132 open() "/mnt/e/projectHome/basesite/web/static/pc/graphql" failed (2: No such file or directory), client: 127.0.0.1, server: www.dev.cn, request: "GET /graphql HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:29:20 [error] 1302#0: *132 open() "/mnt/e/projectHome/basesite/web/static/pc/graphql" failed (2: No such file or directory), client: 127.0.0.1, server: www.dev.cn, request: "GET /graphql HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:29:20 [error] 1302#0: *132 open() "/mnt/e/projectHome/basesite/web/static/pc/graphql" failed (2: No such file or directory), client: 127.0.0.1, server: www.dev.cn, request: "GET /graphql HTTP/1.1", host: "www.dev.cn"
+2019/05/29 10:29:20 [info] 1302#0: *135 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:29:20 [info] 1302#0: *136 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:29:51 [alert] 1304#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:29:51 [notice] 1304#0: signal process started
+2019/05/29 10:29:51 [notice] 1172#0: signal 1 (SIGHUP) received from 1304, reconfiguring
+2019/05/29 10:29:51 [notice] 1172#0: signal 1 (SIGHUP) received from 1304, reconfiguring
+2019/05/29 10:29:51 [notice] 1172#0: reconfiguring
+2019/05/29 10:29:51 [notice] 1172#0: reconfiguring
+2019/05/29 10:29:51 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:29:51 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:29:51 [alert] 1172#0: lua_code_cache is off; this will hurt performance in /mnt/e/projectHome/basesite/sa/openresty/conf/nginx.conf:40
+2019/05/29 10:29:51 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:29:51 [notice] 1172#0: using the "epoll" event method
+2019/05/29 10:29:51 [notice] 1172#0: start worker processes
+2019/05/29 10:29:51 [notice] 1172#0: start worker processes
+2019/05/29 10:29:51 [notice] 1172#0: start worker process 1305
+2019/05/29 10:29:51 [notice] 1172#0: start worker process 1305
+2019/05/29 10:29:52 [notice] 1302#0: gracefully shutting down
+2019/05/29 10:29:52 [notice] 1302#0: gracefully shutting down
+2019/05/29 10:29:55 [info] 1302#0: *137 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:29:55 [info] 1302#0: *138 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:29:55 [notice] 1302#0: exiting
+2019/05/29 10:29:55 [notice] 1302#0: exiting
+2019/05/29 10:29:55 [notice] 1302#0: exit
+2019/05/29 10:29:55 [notice] 1172#0: signal 17 (SIGCHLD) received from 1302
+2019/05/29 10:29:55 [notice] 1172#0: signal 17 (SIGCHLD) received from 1302
+2019/05/29 10:29:55 [notice] 1172#0: worker process 1302 exited with code 0
+2019/05/29 10:29:55 [notice] 1172#0: worker process 1302 exited with code 0
+2019/05/29 10:29:55 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:29:55 [notice] 1172#0: signal 29 (SIGIO) received
+2019/05/29 10:30:06 [info] 1305#0: *139 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:30:23 [info] 1305#0: *143 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:30:44 [info] 1305#0: *145 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:33:06 [info] 1305#0: *147 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2019/05/29 10:33:06 [info] 1305#0: *148 client timed out (110: Connection timed out) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80

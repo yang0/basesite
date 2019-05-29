@@ -8,24 +8,28 @@ python 3.6.5
 django 2.2  
 celery  //todo  
 
+
 前端：  
 vue  
 vue apollo
 element UI  
 vue element admin  
 
+
 数据库：  
 mysql  
 redis  
 
 全文检索：  
-elastic search  
+xapian //todo 
+
 
 完成的功能：  
 1） 实现了一个简单的企业展示网站，动态部分仅一个最简的新闻系统   
 2） 前后端接口是graphql，而不是restfull  
 3)  有两套前端页面，分别对应pc端和移动端 
-4)  用jwt客户端鉴权，方便网站做大了跨域，也方便记录nginx记录用户信息 
+4)  用jwt客户端鉴权，方便网站做大了跨域，也方便记录nginx记录用户信息  
+5)  vue cli打包时将index.html拷贝到了templates目录下，本来想通过django访问的。暂时没用。现在nginx中直接将首页访问路径定位到了static目录下了。
 
 
 # 运维相关
@@ -38,10 +42,12 @@ pm2
 openresty:  
 1） 根据user agent判断用户是来自pc端还是移动端，自动rewrite到响应的二级域名  
 2)  分析出已登录用户的id(可能是邮箱，也可能是tel，取决于django中对jwt的设置)，将操作日志关联到人，便于后期做用户行为分析.   
-需要安装lua-resty-jwt: luarocks install lua-resty-jwt //todo  
+需要安装lua-resty-jwt: luarocks install lua-resty-jwt
 lua对jwt token解码需要用到django的secret key，所以get_auth_user.lua中的secretKey请务必和django的配置保持一致。
 由于本例中我们是基于手机号码作为用户主键的，字段名是：tel。可以在相应的lua文件中修改。
 3)  对静态内容的存取进行鉴权 //todo  
+4)  www子域名，除了首页定位到静态页面以外，其他都转到django  
+5）  static子域名，进行了跨域访问设置。否则font文件是无法下载的
 
 sentry:  接收各应用的错误日志  
 pm2: 进程管理，挂机后自动重启  

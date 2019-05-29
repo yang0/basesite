@@ -51,7 +51,7 @@ module.exports = {
       alias: {
         '@': resolve('src')
       }
-    }
+    },
   },
   chainWebpack(config) {
     config.plugins.delete('preload') // TODO: need test

@@ -1,6 +1,7 @@
 'use strict'
 const path = require('path')
 const defaultSettings = require('./src/settings.js')
+const WebpackShellPlugin = require('webpack-shell-plugin');
 
 function resolve(dir) {
   return path.join(__dirname, dir)
@@ -18,8 +19,8 @@ module.exports = {
    * In most cases please use '/' !!!
    * Detail: https://cli.vuejs.org/config/#publicpath
    */
-  publicPath: '/',
-  outputDir: 'dist',
+  publicPath: 'http://static.dev.cn/pc/',
+  outputDir: '../../static/pc',
   assetsDir: 'static',
   lintOnSave: process.env.NODE_ENV === 'development',
   productionSourceMap: false,
@@ -51,7 +52,10 @@ module.exports = {
       alias: {
         '@': resolve('src')
       }
-    }
+    },
+    plugins:[
+      new WebpackShellPlugin({onBuildExit: ['cp ../../static/pc/index.html ../../templates/pc/']})
+    ]
   },
   chainWebpack(config) {
     config.plugins.delete('preload') // TODO: need test

@@ -22,6 +22,7 @@ from django.urls import path, include
 # from apps.user.views import UserViewSet
 from graphene_django.views import GraphQLView
 from django.views.decorators.csrf import csrf_exempt
+from django.views.generic import TemplateView
 
 # Routers provide an easy way of automatically determining the URL conf.
 # confrouter = routers.DefaultRouter()
@@ -29,6 +30,7 @@ from django.views.decorators.csrf import csrf_exempt
 
 urlpatterns = [
     url(r'^graphql', csrf_exempt(GraphQLView.as_view(graphiql=True))),
+    # url(r'^', TemplateView.as_view(template_name='pc/index.html')),
     # url(r'^', include(router.urls)),
     # url(r'^api-auth/', include('rest_framework.urls')),
     # path('admin/', admin.site.urls),
