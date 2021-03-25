@@ -90,7 +90,7 @@ python-crontab==2.3.6
 python-dateutil==2.8.0
 python-magic==0.4.15
 pytz==2018.4
-PyYAML==5.1
+PyYAML==5.4
 raven==6.10.0
 readme-renderer==24.0
 redis==2.10.6
