@@ -75,7 +75,7 @@ pycodestyle==2.4.0
 pycparser==2.19
 pycrypto==2.6.1
 pycryptodome==3.6.4
-Pygments==2.2.0
+Pygments==2.7.4
 PyJWT==1.6.1
 pylint==2.1.1
 pylint-django==2.0.2
