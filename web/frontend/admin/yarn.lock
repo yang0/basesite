@@ -1772,19 +1772,10 @@ apollo-link-http-common@^0.2.13:
     ts-invariant "^0.3.2"
     tslib "^1.9.3"
 
-apollo-link-http@^1.3.1:
+apollo-link-http@^1.3.1, apollo-link-http@^1.5.14:
   version "1.5.14"
   resolved "https://registry.npm.taobao.org/apollo-link-http/download/apollo-link-http-1.5.14.tgz#ed6292248d1819ccd16523e346d35203a1b31109"
   integrity sha1-7WKSJI0YGczRZSPjRtNSA6GzEQk=
-  dependencies:
-    apollo-link "^1.2.11"
-    apollo-link-http-common "^0.2.13"
-    tslib "^1.9.3"
-
-apollo-link-http@^1.5.14:
-  version "1.5.14"
-  resolved "https://registry.yarnpkg.com/apollo-link-http/-/apollo-link-http-1.5.14.tgz#ed6292248d1819ccd16523e346d35203a1b31109"
-  integrity sha512-XEoPXmGpxFG3wioovgAlPXIarWaW4oWzt8YzjTYZ87R4R7d1A3wKR/KcvkdMV1m5G7YSAHcNkDLe/8hF2nH6cg==
   dependencies:
     apollo-link "^1.2.11"
     apollo-link-http-common "^0.2.13"
@@ -5296,12 +5287,7 @@ graphql-subscriptions@^1.0.0:
   dependencies:
     iterall "^1.2.1"
 
-graphql-tag@^2.10.1:
-  version "2.10.1"
-  resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.10.1.tgz#10aa41f1cd8fae5373eaf11f1f67260a3cad5e02"
-  integrity sha512-jApXqWBzNXQ8jYa/HLkZJaVw9jgwNqZkywa2zfFn16Iv1Zb7ELNHkJaXHR7Quvd5SIGsy6Ny7SUKATgnu05uEg==
-
-graphql-tag@^2.4.2, graphql-tag@^2.9.2:
+graphql-tag@^2.10.1, graphql-tag@^2.4.2, graphql-tag@^2.9.2:
   version "2.10.1"
   resolved "https://registry.npm.taobao.org/graphql-tag/download/graphql-tag-2.10.1.tgz#10aa41f1cd8fae5373eaf11f1f67260a3cad5e02"
   integrity sha1-EKpB8c2PrlNz6vEfH2cmCjytXgI=
@@ -5327,14 +5313,7 @@ graphql-upload@^8.0.2:
     http-errors "^1.7.2"
     object-path "^0.11.4"
 
-graphql@^14.1.1:
-  version "14.3.0"
-  resolved "https://registry.npm.taobao.org/graphql/download/graphql-14.3.0.tgz#34dd36faa489ff642bcd25df6c3b4f988a1a2f3e"
-  integrity sha1-NN02+qSJ/2QrzSXfbDtPmIoaLz4=
-  dependencies:
-    iterall "^1.2.2"
-
-graphql@^14.3.0:
+graphql@^14.1.1, graphql@^14.3.0:
   version "14.3.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-14.3.0.tgz#34dd36faa489ff642bcd25df6c3b4f988a1a2f3e"
   integrity sha512-MdfI4v7kSNC3NhB7cF8KNijDsifuWO2XOtzpyququqaclO8wVuChYv+KogexDwgP5sp7nFI9Z6N4QHgoLkfjrg==
@@ -9233,9 +9212,9 @@ querystring@0.2.0:
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
 querystringify@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.npm.taobao.org/querystringify/download/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
-  integrity sha1-YOWl/WSn+L+k0qsu1v30yFutFU4=
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
 randomatic@^3.0.0:
   version "3.1.1"
@@ -9620,7 +9599,7 @@ require-uncached@^1.0.3:
 
 requires-port@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npm.taobao.org/requires-port/download/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
 reselect@^3.0.1:
@@ -11215,9 +11194,9 @@ url-parse-lax@^1.0.0:
     prepend-http "^1.0.1"
 
 url-parse@^1.4.3:
-  version "1.4.7"
-  resolved "https://registry.npm.taobao.org/url-parse/download/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
-  integrity sha1-qKg1NejACjFuQDpdtKwbm4U64ng=
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.1.tgz#d5fa9890af8a5e1f274a2c98376510f6425f6e3b"
+  integrity sha512-HOfCOUJt7iSYzEx/UqgtwKRMC6EU91NFhsCHMv9oM03VJcVo2Qrp8T8kI9D7amFf1cu+/3CEhgb3rF9zL7k85Q==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
