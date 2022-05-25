@@ -76,7 +76,7 @@ pycparser==2.19
 pycrypto==2.6.1
 pycryptodome==3.6.4
 Pygments==2.2.0
-PyJWT==1.6.1
+PyJWT==2.4.0
 pylint==2.1.1
 pylint-django==2.0.2
 pylint-plugin-utils==0.4
