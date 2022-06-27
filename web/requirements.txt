@@ -94,7 +94,7 @@ PyYAML==5.1
 raven==6.10.0
 readme-renderer==24.0
 redis==2.10.6
-reportlab==3.5.9
+reportlab==3.5.55
 requests==2.19.1
 requests-toolbelt==0.9.1
 rsa==3.4.2
